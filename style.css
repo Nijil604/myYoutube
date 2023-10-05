@@ -1,0 +1,371 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navigation{
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    display: inline-flex;
+    padding-top: 25px;
+    border-bottom: 10px;
+    border-color: rgb(3, 3, 3);
+    position: fixed;
+    
+}
+.option{
+    display: inline-flex;
+    margin-left: 34px;
+    width: 27px;
+    height: 35px;
+
+}
+.logo{
+    width: 76px;
+    height: 30px;
+    padding-left: 29px
+}
+.logo-span{
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.searchbar{
+    margin-left: 140px;
+    border-color: hsl(0, 97%, 47%);
+    display: flex;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: black;
+    width: 600px;
+    height: 35px;
+    border-radius: 19px 19px 19px 19px ;
+    background-color: rgb(255, 255, 255);   
+}
+.searchbar img{
+    width: 74px;
+    height: 32px;
+    margin-top: 1px;
+    border-radius: 0px 19px 19px 0px;
+}
+.searchbar :placeholder-shown{
+    width: 550px;
+    height: 34px;
+    border-radius: 19px 0px 0px 19px ;
+    text-align: left;
+    margin-left: 13px;
+    border-width: 0;
+}
+.nav-last{
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    background-color: #ffffff;
+
+}
+.nav-last img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+/*-----------------------------------------------------------------------------*/
+.sidebar{
+    background-color: hwb(0 100% 0%);
+    width: 205px;
+    height: 500px;
+    margin-top: 75px;
+    position: fixed;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+
+}
+/*--------------------------------------*/
+.home{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.shorts{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.sub{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.ytm{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 1px;
+}
+.home span{
+margin-top: 16px;
+margin-left: 1px;
+}
+.shorts span{
+    margin-top: 7px;
+    margin-left: 18px;
+}
+.sub span{
+    margin-top: 16px; 
+    margin-left: 4px;
+}
+.ytm span{
+    margin-top: 16px;
+    margin-left: 9px;
+}
+/*--------------------------------------*/
+.hom{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.short{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.su{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 1px;
+}
+.yt{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 3px;
+}
+.shor{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.subs{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.ytms{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.hom span{
+margin-top: 13px;
+margin-left: 10px;
+}
+.short span{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.su span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.yt span{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.shor span{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.subs span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.ytms span{
+    margin-top: 16px;
+    margin-left: 11px;
+}
+/*--------------------------------------*/
+.a{
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.bro{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left:0px;
+}
+.bro span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.cnbc{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.cnbc span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.nrd{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.nrd span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+/*---------------------------------------*/
+.trend{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.trend span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.shop{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.shop span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.msc{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 22px;
+}
+.msc span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+.more{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.more span{
+    margin-top: 16px; 
+    margin-left: 10px;
+}
+/*---------------------------------------*/
+.setting{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.his{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.hlp{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.back{
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.setting span{
+margin-top: 16px;
+margin-left: 12px;
+}
+.his span{
+    margin-top: 7px;
+    margin-left: 18px;
+}
+.hlp span{
+    margin-top: 16px; 
+    margin-left: 4px;
+}
+.back span{
+    margin-top: 16px;
+    margin-left: 9px;
+}
+.copyright img{
+    width: 215px;
+    height: 100px;
+}
+/*---------------------------------------*/
+
+.tags{
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 205px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: block;
+}
+.b{
+    margin-right: 25px;
+    
+}
+.tags button {
+    border: none;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+/*.videos video{
+    margin-left: 10px;
+    width: 320px;
+    height: 240px;
+
+}*/
+.videos{
+    margin-top: 10px;
+    margin-left: 208px;
+    width: 980px;
+    height: 700px;
+    background-color: #ffffff;
+    display:grid ;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+
+
+.v1{
+    width: 333x;
+    height: 280px;
+    background-color: transparent;
+}
+.v1 video{
+    margin-left: 10px;
+    width: 320px;
+    height: 234px;
+}
+.v1 img{
+    width: 32px;
+    height: 36px;
+    border-radius: 50%;
+}
+.v1 span{
+    display: flex;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+.v1 p{
+    display: inline-flex;
+    font-size: 15px;
+    color: grey;
+    margin-left: 40px;
+    margin-top: 5px;
+    letter-spacing: -1px;
+}
