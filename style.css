@@ -84,8 +84,9 @@
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: auto;
-   
-
+}
+.sidebar span{
+    color: black;
 }
 /*--------------------------------------*/
 .home{
